@@ -1,0 +1,25 @@
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.display-flex{
+    border: solid 2px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: flex-end; 
+    align-items: flex-start;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+}
+/* 
+@justifi content  es para el eje x
+y align ítems es para el y a menos 
+que los inviertas */
+
+.bg-green, .bg-red{
+    width: 25%;
+}

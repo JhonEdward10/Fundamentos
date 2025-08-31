@@ -1,0 +1,21 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+}
+
+.personalinformation, .card{
+  background-color: rgba(75, 3, 143, 0.507);
+  padding: 20px;
+  list-style: none;
+  border-radius: 10px;
+}
+
+.card{
+  background-color: red;
+  color: black;
+}

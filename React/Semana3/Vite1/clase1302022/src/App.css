@@ -1,0 +1,18 @@
+.App{ 
+  background-color: blanchedalmond;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-of-card{
+  padding: 20px;
+  background-color: teal;
+  color: white;
+  border-radius: 12px;
+  width: 200px;
+}

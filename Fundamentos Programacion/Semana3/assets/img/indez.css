@@ -1,0 +1,11 @@
+.card{
+    border: solid 1px rgb(255, 213, 134);
+    padding: 20px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 25vw;
+}
+.card img{
+    max-width: 100%;
+}

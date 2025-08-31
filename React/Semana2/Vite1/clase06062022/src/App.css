@@ -1,0 +1,13 @@
+.App{
+  text-align: center;
+}
+
+body{
+  background: brown;
+}
+
+.loader{
+  text-align: center;
+  font-size: 2rem;
+  color: white
+}

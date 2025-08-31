@@ -1,0 +1,33 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-12{
+    width: 100%;
+}
+/*Movil*/
+/*Tablet*/
+/*Desktop*/
+/*Smart TV*/
+/* @media(min-width: 700px) and (max-width:900px){
+    div {
+        background-color: green;
+    }
+} */
+
+@media(min-width: 576px){
+    
+}
+
+@media(min-width: 768px){
+    .col-md-6{
+        width: 50%;
+    }
+}
+
+@media(min-width: 992px){
+    .col-lg-4{
+        width: 33.33%;
+    }
+
+}

@@ -1,0 +1,13 @@
+[
+	{
+		"name": "localhost",
+		"host": "54.224.252.145",
+		"port": 22,
+		"type": "ftp",
+		"username": "root",
+		"password": "German25355.",
+		"path": "/var/www/html/aa",
+		"autosave": true,
+		"confirm": true
+	}
+]

@@ -1,0 +1,23 @@
+.card{
+    border: solid 1px rgb(255, 213, 134);
+    padding: 20px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+
+button{
+    border: 0;
+    color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-radius: 20x;
+}
+
+.card img{
+    max-width: 100%;
+}

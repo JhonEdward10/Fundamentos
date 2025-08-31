@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  color: black;
+  background-color: aqua;
+  width: max-content;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img{
+  border-radius: 50%;
+  box-shadow: 1px 1px 7px 0 #0007;
+}
+
+.App{
+  padding-top: 20px;
+  min-height: 10vh;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}

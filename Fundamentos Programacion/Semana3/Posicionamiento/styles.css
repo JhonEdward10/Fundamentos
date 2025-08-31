@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    height: 100px;
+}
+
+section div:nth-child(even){
+    background-color: red;
+
+}
+section div:nth-child(odd){
+    background-color: green;
+
+}
+
+.div-1{
+    z-index: 1 ;
+
+}
+
+.div-2{
+    margin-top: -50px;
+    z-index: 2;
+
+}
+
+.p-relative{
+    position: relative;
+}
+
+/*Apilamiento*/
+
+/*Si tenemos 2 elementos NO POSICIONADOS que se enciman siempre quedará arriba el elemento que se encuentre al último en mi código html
+    Si tenemos 2 elementos POSICIONADOS que se enciman siempre quedará arriba el elemento que se encuentre al último en mi código html
+    Si tenemos un elemento posicionado y uno no posicionado que se enciman siempre se pondrá arriba el posicionado
+    Con z - index puedo romper con las reglas de los elementos POSICIONADOS (z-indez no funciona con elementos no posicionados)
+*/

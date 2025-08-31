@@ -1,0 +1,41 @@
+button {
+/* background-color: #f17704; */
+border: 0;
+color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 10px;
+padding-left: 10px;
+border-radius: 100px;
+font-size: 20px;
+}
+.button-green{
+    background-color: rgb(103, 250, 103);
+}
+.button-dark-blue{
+background-color: aquamarine;
+}
+
+.space-top{
+    margin-top: 10px;
+}
+.button-is-black{
+    background-color:rgb(0, 0, 0);
+}
+.button-dark-green{
+    background-color: green;
+}
+.button-red{
+    background-color: red;
+}
+.button-yellow{
+    background-color: yellow;
+    font-size: 20px;
+    border: 100px;
+}
+.button-ligth-blue{
+    background-color: lightblue;
+    font-size: 30px;
+    border: 10px;
+}
+

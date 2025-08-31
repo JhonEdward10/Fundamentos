@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-color: bisque;
+
+}
+
+li{
+    list-style: none;
+}
+
+.Cards-movies{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+
+.Card-movie{
+    padding: 20px;
+    background-color: teal;
+    color: white;
+    border-radius: 12px;
+    width: 200px;
+}
+
+.App{
+    text-align: center;
+}

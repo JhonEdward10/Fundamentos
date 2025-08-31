@@ -1,0 +1,16 @@
+img{
+  width: 300px;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center ;
+  gap: 20px;
+  background-color: blueviolet;
+}
+
+.Card{
+  background: hsla(0,0%,100%,.7);
+}

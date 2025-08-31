@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+h1, h2, h3, p, li{
+    color: white;
+    font-family: cursive;
+}
+.bg-red{
+    background-color: rgb(126, 0, 0);
+}
+.bg-blue{
+    background-color: rgb(0, 0, 92);
+}
