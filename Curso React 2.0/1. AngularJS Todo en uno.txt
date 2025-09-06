@@ -1,46 +1,60 @@
 1. AngularJS: Todo en uno
 "Angular JS es una sola unidad"
-
 - AngularJS mezcla controlador, vista, modelo y lógica en un solo archivo o componente.
 - Esto puede hacer que el código se vuelva pesado y difícil de mantener, porque todo está junto: HTML, lógica de negocio y estructura.
 🔍 Ejemplo: En AngularJS puedes tener un archivo .html con directivas, un .js con el controlador, y todo depende de cómo se conecten.
 
 ⚛️ 2. React: Separación y simplicidad
 "React es lo más popular" + "Modelo - función" + "Solo tenemos líneas de código que le agregan funcionalidad"
-
 - React se basa en componentes funcionales: cada uno es una función que devuelve una vista (JSX).
 - No hay controlador ni modelo explícito como en AngularJS. Todo se maneja con props, estado y funciones.
 🔧 Ejemplo:
 function Saludo({ nombre }) {
   return <h1>Hola, {nombre}</h1>;
 }
-
-
 Aquí tienes lógica, vista y datos en una función clara y reutilizable.
+
 
 🧠 3. Estructura React: App → Componente → Vista
 "App -> React -> componente -> vista"
-
 - Tu aplicación React empieza con un componente raíz (App), que se divide en subcomponentes.
 - Cada componente maneja su propia lógica y vista, lo que permite modularidad y escalabilidad.
 📌 En tu proyecto, esto se traduce en dividir funcionalidades como login, dashboard, PDF viewer, etc., en componentes separados.
 
 🔄 4. ¿Cuándo empezamos a entender React?
 "Es complicado pero..."
-
 - Al principio React puede parecer abstracto, pero cuando entiendes cómo fluye la información (props, estado) y cómo se actualiza la vista, todo empieza a tener sentido.
 - Lo clave es pensar en componentes como funciones puras que reaccionan a cambios de datos.
 
-React, es todo dinamico, no es dinamico - Apicaciones privadas
+React, es todo dinamico - Apicaciones privadas
 
 Hay framework de react 
 	.Solid Js - es como debería haber sido react desde un principio - muy liviano
-	.Next Js - supera con creces a react porque tiene algunas ventajas sobre react - 
+			-Reactividad real  (signals)
+	.Next Js - supera con creces a react porque tiene algunas ventajas sobre react y además trabaja para empresas privadas y publicas - 
+		-Tiene su propio routing y es basado en carpetas
 		-Mejor SEO: Al renderizar en el servidor, los motores de búsqueda pueden indexar mejor tu contenido.
 		- Carga más rápida: Las páginas estáticas se sirven como HTML puro, lo que reduce el tiempo de espera.
 		- Escalabilidad: Puedes construir desde un blog hasta una app empresarial con la misma base.
 		- Fullstack en React: Puedes tener frontend y backend en un solo proyecto.
 
+			¿Cómo funciona cada uno?
+				🔹 CSR (Client-Side Rendering)
+					- El servidor envía una página vacía con un archivo JavaScript.
+					- El navegador descarga ese JS y construye la interfaz en tiempo real.
+					- Ideal para apps interactivas donde el SEO no es tan importante.
+
+				🔹 SSR (Server-Side Rendering)
+					- El servidor genera el HTML completo antes de enviarlo al navegador.
+					- El usuario ve contenido desde el primer momento.
+					- Ideal para sitios que necesitan buen SEO o carga rápida inicial.
+
+			-Pero eso si tarda un poco mas en cargar, porque todo lo renderiza y no tiene virtual Dom
+
+	.Remix - SSR 
+
+🚦 ¿Qué es el routing?
+En desarrollo web, routing (o enrutamiento) es el sistema que decide qué contenido mostrar según la URL que el usuario visita.
 
 
-
+Iniciamos con vite y en la primera clase se va a ver archivos, que es muy importante jhon Edward, 
