@@ -1,3 +1,5 @@
+Curso de react completo
+
 1. AngularJS: Todo en uno
 "Angular JS es una sola unidad"
 - AngularJS mezcla controlador, vista, modelo y lógica en un solo archivo o componente.
@@ -55,6 +57,21 @@ Hay framework de react
 
 🚦 ¿Qué es el routing?
 En desarrollo web, routing (o enrutamiento) es el sistema que decide qué contenido mostrar según la URL que el usuario visita.
+Iniciamos con vite y en la primera clase se va a ver archivos, que es muy importante jhon Edward.
+
+strictMode, controlar la manera que funcionen los componentes, crea un componente, lo destruye y revisa si cuando se vuelve a construir y se vuelve a llamar.
+
+Asi que hay es donde importa el DOM, el dom es reescribir todo de nuevo y ahí es donde react no utiliza todo el DOM sino que usa el virtual DOM, cambiando solo lo que no es igual a lo que ya estaba. -  lo que se llama reconciliación
+
+el por default 
+
+		.Tailwind CSS es un framework de estilos que te permite diseñar interfaces directamente desde el HTML/JSX, usando clases utilitarias. En lugar de escribir CSS tradicional, aplicas estilos con clases como bg-blue-500, text-white, p-4, etc. Directamente sobre la linea de codigo
+
+Detección de cambios
+SPA - singlepageaplication - librerías de componentes 
+trigger - es el cambio, mediante un botón
+Aquí vamos a tener el trigger inicial, el que inicia la aplicación.
 
 
-Iniciamos con vite y en la primera clase se va a ver archivos, que es muy importante jhon Edward, 
+
+

@@ -1,0 +1,31 @@
+src/
+├── components/
+│   ├── Login.jsx
+│   ├── Dashboard.jsx
+│   └── Navbar.jsx
+├── pages/
+├── context/
+│   └── AuthContext.jsx
+├── utils/
+└── App.jsx
+
+
+src/
+├── components/
+│   ├── Login.jsx
+│   ├── Dashboard.jsx
+│   ├── Navbar.jsx
+│   ├── FormularioCliente.jsx
+│   └── TablaClientes.jsx
+├── pages/
+│   ├── Clientes.jsx
+│   ├── PerfilUsuario.jsx
+│   └── NotFound.jsx
+├── context/
+│   └── AuthContext.jsx
+├── utils/
+│   ├── api.js
+│   ├── validarCampos.js
+│   └── formatearDatos.js
+├── App.jsx
+└── index.css
